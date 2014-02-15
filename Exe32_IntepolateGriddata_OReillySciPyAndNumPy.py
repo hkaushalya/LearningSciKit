@@ -13,3 +13,5 @@ from scipy.interpolate import griddata
 
 # Define the function
 ripple = lambda x, y: np.sqrt(x**2 + y**2) + np.sin(x**2 + y**2)
+
+# Generating sample that interpolation function will see
